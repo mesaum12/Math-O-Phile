@@ -1,0 +1,178 @@
+#container
+{
+    width: 1090px;
+    /* border: 1px solid grey; */
+    /* height: 100px; */
+    margin: 0px auto;
+    height: 100%;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100px;
+    color: purple;
+    text-decoration: none;
+
+}
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#searchbox
+{
+    background: linear-gradient(yellow,green);
+    width: 400px;
+    height: 50px;
+    float: right;
+    padding: 20px 20px 0px 20px ;
+    margin-top: 20px;
+
+}
+.text
+{
+  float: left;
+  width: 200px;
+  padding:  5px;
+  font-size: 15px;
+  color: red;
+}
+.submit
+{
+   float: right;
+   padding: 5px;
+   font-weight: bold;
+   color:white;
+   background:cornflowerblue
+   
+}
+#brand
+{
+    float: left;
+    
+    
+}
+ul{
+    list-style: none;
+}
+#menu
+{
+    height: 70px;
+    background: linear-gradient(white ,yellow);
+    padding: 7px 0;
+}
+#menu ul li{
+  float: left;
+  padding:0 10px ;
+  height: 20px;
+  border-right: 1px solid blue;
+
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a{
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 17px;
+   color:black;
+   line-height: 30px;
+   transition: font-size 0.3s ease;
+  
+  }
+  #introduction
+  {
+      background: linear-gradient(rgb(211, 223, 167),rgb(83, 221, 78));
+      padding: 30px;
+      margin: 40px 0px;
+  }
+  #introduction h3
+  {
+      font-size: 40px;
+      font-weight: bold;
+      color:#110202;
+      
+  }
+  #introduction p
+  {
+      font-size: 30px;
+      color:#31080d;
+      text-align: justify;
+  }
+  #menu ul li a:hover,#menu ul li a.active{
+    
+    font-weight:bold;
+    color:red;
+   
+   }
+   .sidebar
+   {
+       height:600px;
+       width:450px;
+       border: 1px solid grey;
+       border-radius:20px  ;
+       padding: 10px 20px;
+       background: rgb(235, 235, 235);
+       margin-bottom: 50px ;
+       margin-top: 50px;
+       
+    
+   }
+   .sidebar:hover{
+       background: rgb(220, 238, 183);
+   }
+   .sidebar h3
+   {
+       color:purple;
+       font-size: 25px;
+      
+   }
+   .sidebar ul li a{
+      text-decoration: none;
+      font-size: 20px;
+      color:saddlebrown
+   }
+   .sidebar ul li a:hover, .sidebar ul li a.active
+   {
+       text-decoration: none;
+       color:red;
+       font-size: 23px;
+       font-weight: bold;
+       transition: font-size 0.3s ease;
+       
+
+   }
+   #leftsidebar
+   {
+     float:left;
+     padding-left: 50px;
+    
+   }
+   #rightsidebar
+   {
+    float: right;
+    padding-left: 50px;
+   }
+   .sidebar ul {
+       padding-top: 3px;
+   }
+  #leftsidebar ul li 
+  {
+      padding-bottom:5px;
+      padding-left: 10px;
+      padding-top: 5px;
+      list-style: url(images/logo.png.png);
+  }
+  #rightsidebar ul li{
+      padding-bottom: 20px;
+      padding-top: 20px;
+      background: url(images/tick.png) no-repeat left;
+      padding-left: 80px;
+  }
+  
+ /* .footer
+{
+    height: 600px;
+    background:linear-gradient(yellow,red);
+    padding:10px 30px ;
+    margin-bottom: 15px;
+
+}  */
